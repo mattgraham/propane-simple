@@ -1,0 +1,31 @@
+body {
+  background: #FFFFFF ! important;
+}
+
+div#Header {
+  display:none ! important;
+}
+
+div#Wrapper {
+  padding: 0px ! important;
+}
+
+div#Container {
+  margin: 0px ! important;
+}
+
+div#Container div.Full div.col {
+  background: #FFFFFF ! important;
+}
+
+div#Container div.Full div.bottom {
+  display:none ! important;
+}
+div#open_bar { display: none ! important; }
+div#launchbar { display: none ! important; }
+input#term { border: 1px inset ! important; }
+
+.enter_message {
+  background: red !important;
+}
+
