@@ -5,6 +5,8 @@ Propane-Simple is a work in progress style update for the 37Signals [Campfire™
 
 To update your theme replace <code>/styles</code> and <code>/unsupported</code> directories in <code>~/Library/Application Support/Propane/</code> directory with those in this repo. Be sure to backup your original copies or they will be gone.
 
+Note: I use [CodeKit](http://incident57.com/codekit/) to compile the sass/compass however many other apps will work just as fine.
+
 Special thanks to [jonrohan](https://github.com/jonrohan) for his work on the [caveatPatchor.js](https://github.com/jonrohan/organic-propane/blob/master/unsupported/caveatPatchor.js) file.
 
 ##Screen Shot
