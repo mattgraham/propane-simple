@@ -10,6 +10,9 @@ directories in <code>~/Library/Application\ Support/Propane/</code> directory
 with those in this repo. Be sure to backup your original copies or they will be
 gone.
 
+You can also run `rake install` which will create backups if you don't have them
+(i.e. first run), and then copy the files over each time.
+
 Note: I use [CodeKit](http://incident57.com/codekit/) to compile the
 sass/compass however many other apps will work just as fine.
 
