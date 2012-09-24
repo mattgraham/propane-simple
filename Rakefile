@@ -10,7 +10,7 @@ task :install do
   targets.each do |directory|
     # Only make back ups if these are originals (i.e. no backup exists already)
     if File.exists?(directory) && !File.exists?("#{directory}.backup")
-      puts `mv "#{directory}" "#{directory}.backup"`
+      `mv "#{directory}" "#{directory}.backup"`
     end
   end
 
@@ -21,6 +21,6 @@ task :install do
 
   directories.each do |directory|
     target = "#{ENV['HOME']}/Library/Application Support/Propane/#{directory}"
-    puts `cp -R "$PWD/#{directory}" "#{target}"`
+    `cp -R "$PWD/#{directory}" "#{target}"`
   end
 end
