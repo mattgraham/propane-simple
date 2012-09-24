@@ -9,14 +9,14 @@ task :install do
   # Back up old files
   targets.each do |directory|
     # Only make back ups if these are originals (i.e. no backup exists already)
-    if Dir.exists?(directory) && !Dir.exists?("#{directory}.backup")
+    if File.exists?(directory) && !File.exists?("#{directory}.backup")
       puts `mv "#{directory}" "#{directory}.backup"`
     end
   end
 
   # Delete targets and copy new ones to it
   targets.each do |directory|
-    FileUtils.rm_rf(directory) if Dir.exists?(directory)
+    FileUtils.rm_rf(directory) if File.exists?(directory)
   end
 
   directories.each do |directory|
