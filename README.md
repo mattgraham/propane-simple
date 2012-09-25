@@ -23,6 +23,7 @@ file.
 ##Screen Shot
 ![propane-simple](http://f.cl.ly/items/2T2g0A3e0T260H302E1B/Screen%20Shot%202012-08-27%20at%204.22.44%20PM.png)
 
-##Propane Plus The <code>propaneplus</code> branch is developed for the GitHub's
+##Propane Plus 
+The <code>propaneplus</code> branch is developed for the GitHub's
 custom version of PropaneApp. One of the many beautiful features you can play
 with, as a GitHubber.
